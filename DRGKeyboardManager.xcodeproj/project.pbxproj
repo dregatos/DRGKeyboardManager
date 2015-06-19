@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		0729A1EE1B2F17C3005F87C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A1ED1B2F17C3005F87C3 /* main.m */; };
 		0729A1F11B2F17C3005F87C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A1F01B2F17C3005F87C3 /* AppDelegate.m */; };
-		0729A1F41B2F17C3005F87C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A1F31B2F17C3005F87C3 /* ViewController.m */; };
+		0729A1F41B2F17C3005F87C3 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A1F31B2F17C3005F87C3 /* SimpleViewController.m */; };
 		0729A1F71B2F17C3005F87C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0729A1F51B2F17C3005F87C3 /* Main.storyboard */; };
 		0729A1F91B2F17C3005F87C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0729A1F81B2F17C3005F87C3 /* Images.xcassets */; };
 		0729A1FC1B2F17C3005F87C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0729A1FA1B2F17C3005F87C3 /* LaunchScreen.xib */; };
 		0729A2081B2F17C3005F87C3 /* DRGKeyboardManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A2071B2F17C3005F87C3 /* DRGKeyboardManagerTests.m */; };
+		0729A2131B2F1BA9005F87C3 /* DRGKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A2121B2F1BA9005F87C3 /* DRGKeyboardManager.m */; };
+		0729A2161B2F211C005F87C3 /* DRGFakeNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729A2151B2F211C005F87C3 /* DRGFakeNotificationCenter.m */; };
+		0788528A1B30562700A6270E /* DRGFakeKeyboardManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078852891B30562700A6270E /* DRGFakeKeyboardManagerDelegate.m */; };
+		0788528F1B30652100A6270E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0788528E1B30652100A6270E /* LoginViewController.m */; };
+		078852921B306D2700A6270E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078852911B306D2700A6270E /* TableViewController.m */; };
+		078852961B306D9C00A6270E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 078852951B306D9C00A6270E /* CustomCell.m */; };
+		078852991B307EAF00A6270E /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078852981B307EAF00A6270E /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,28 @@
 		0729A1ED1B2F17C3005F87C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0729A1EF1B2F17C3005F87C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0729A1F01B2F17C3005F87C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0729A1F21B2F17C3005F87C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0729A1F31B2F17C3005F87C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0729A1F21B2F17C3005F87C3 /* SimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		0729A1F31B2F17C3005F87C3 /* SimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
 		0729A1F61B2F17C3005F87C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0729A1F81B2F17C3005F87C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0729A1FB1B2F17C3005F87C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0729A2011B2F17C3005F87C3 /* DRGKeyboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRGKeyboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0729A2061B2F17C3005F87C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0729A2071B2F17C3005F87C3 /* DRGKeyboardManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRGKeyboardManagerTests.m; sourceTree = "<group>"; };
+		0729A2111B2F1BA9005F87C3 /* DRGKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGKeyboardManager.h; sourceTree = "<group>"; };
+		0729A2121B2F1BA9005F87C3 /* DRGKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGKeyboardManager.m; sourceTree = "<group>"; };
+		0729A2141B2F211C005F87C3 /* DRGFakeNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGFakeNotificationCenter.h; sourceTree = "<group>"; };
+		0729A2151B2F211C005F87C3 /* DRGFakeNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGFakeNotificationCenter.m; sourceTree = "<group>"; };
+		078852881B30562700A6270E /* DRGFakeKeyboardManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGFakeKeyboardManagerDelegate.h; sourceTree = "<group>"; };
+		078852891B30562700A6270E /* DRGFakeKeyboardManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGFakeKeyboardManagerDelegate.m; sourceTree = "<group>"; };
+		0788528D1B30652100A6270E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0788528E1B30652100A6270E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		078852901B306D2700A6270E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		078852911B306D2700A6270E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		078852941B306D9C00A6270E /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		078852951B306D9C00A6270E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		078852971B307EAF00A6270E /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		078852981B307EAF00A6270E /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +104,12 @@
 			children = (
 				0729A1EF1B2F17C3005F87C3 /* AppDelegate.h */,
 				0729A1F01B2F17C3005F87C3 /* AppDelegate.m */,
-				0729A1F21B2F17C3005F87C3 /* ViewController.h */,
-				0729A1F31B2F17C3005F87C3 /* ViewController.m */,
-				0729A1F51B2F17C3005F87C3 /* Main.storyboard */,
 				0729A1F81B2F17C3005F87C3 /* Images.xcassets */,
 				0729A1FA1B2F17C3005F87C3 /* LaunchScreen.xib */,
+				0729A1F51B2F17C3005F87C3 /* Main.storyboard */,
+				078852931B306D7C00A6270E /* Cells */,
+				0729A2181B3021FB005F87C3 /* ViewControllers */,
+				0729A2171B3021F0005F87C3 /* Managers */,
 				0729A1EB1B2F17C3005F87C3 /* Supporting Files */,
 			);
 			path = DRGKeyboardManager;
@@ -105,7 +127,8 @@
 		0729A2041B2F17C3005F87C3 /* DRGKeyboardManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				0729A2071B2F17C3005F87C3 /* DRGKeyboardManagerTests.m */,
+				0788528C1B30564300A6270E /* Fakes */,
+				0788528B1B30562B00A6270E /* Managers */,
 				0729A2051B2F17C3005F87C3 /* Supporting Files */,
 			);
 			path = DRGKeyboardManagerTests;
@@ -117,6 +140,58 @@
 				0729A2061B2F17C3005F87C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0729A2171B3021F0005F87C3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0729A2111B2F1BA9005F87C3 /* DRGKeyboardManager.h */,
+				0729A2121B2F1BA9005F87C3 /* DRGKeyboardManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		0729A2181B3021FB005F87C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0729A1F21B2F17C3005F87C3 /* SimpleViewController.h */,
+				0729A1F31B2F17C3005F87C3 /* SimpleViewController.m */,
+				0788528D1B30652100A6270E /* LoginViewController.h */,
+				0788528E1B30652100A6270E /* LoginViewController.m */,
+				078852901B306D2700A6270E /* TableViewController.h */,
+				078852911B306D2700A6270E /* TableViewController.m */,
+				078852971B307EAF00A6270E /* ScrollViewController.h */,
+				078852981B307EAF00A6270E /* ScrollViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0788528B1B30562B00A6270E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0729A2071B2F17C3005F87C3 /* DRGKeyboardManagerTests.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		0788528C1B30564300A6270E /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				0729A2141B2F211C005F87C3 /* DRGFakeNotificationCenter.h */,
+				0729A2151B2F211C005F87C3 /* DRGFakeNotificationCenter.m */,
+				078852881B30562700A6270E /* DRGFakeKeyboardManagerDelegate.h */,
+				078852891B30562700A6270E /* DRGFakeKeyboardManagerDelegate.m */,
+			);
+			name = Fakes;
+			sourceTree = "<group>";
+		};
+		078852931B306D7C00A6270E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				078852941B306D9C00A6270E /* CustomCell.h */,
+				078852951B306D9C00A6270E /* CustomCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0729A1F41B2F17C3005F87C3 /* ViewController.m in Sources */,
+				0729A2131B2F1BA9005F87C3 /* DRGKeyboardManager.m in Sources */,
+				078852921B306D2700A6270E /* TableViewController.m in Sources */,
+				0729A1F41B2F17C3005F87C3 /* SimpleViewController.m in Sources */,
 				0729A1F11B2F17C3005F87C3 /* AppDelegate.m in Sources */,
+				078852961B306D9C00A6270E /* CustomCell.m in Sources */,
 				0729A1EE1B2F17C3005F87C3 /* main.m in Sources */,
+				0788528F1B30652100A6270E /* LoginViewController.m in Sources */,
+				078852991B307EAF00A6270E /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0729A2161B2F211C005F87C3 /* DRGFakeNotificationCenter.m in Sources */,
+				0788528A1B30562700A6270E /* DRGFakeKeyboardManagerDelegate.m in Sources */,
 				0729A2081B2F17C3005F87C3 /* DRGKeyboardManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +498,7 @@
 				0729A20D1B2F17C3005F87C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0729A20E1B2F17C3005F87C3 /* Build configuration list for PBXNativeTarget "DRGKeyboardManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +507,7 @@
 				0729A2101B2F17C3005F87C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.backgroundColor = [UIColor colorWithHue:0/359.0 saturation:0/100.0 brightness:100/100.0 alpha:1.];
+    
     return YES;
 }
 
